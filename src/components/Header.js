@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Switch from "@brookr/react-switch";
 import Nav from 'react-bootstrap/Nav'
 import { LinkContainer } from "react-router-bootstrap";
+import backgroundImage from '../images/background.jpg'; 
 
 class Header extends Component {
   titles = [];
@@ -98,15 +99,15 @@ class Header extends Component {
             />
           </Nav.Item>
         </Nav>
-        <div className="row aligner" style={{height: '100%'}}>
+        <div className="row aligner" style={{ height: '100%', backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false" style={{ color: 'dodgerblue'}}></span>
               <br/>
-              <h1 className="mb-0">
+              <h1 className="mb-0" style={{ color: 'dodgerblue'}}>
                 {name}
               </h1>
-              <div className="title-container">
+              <div className="title-container" style={{ color: 'dodgerblue'}}>
                 <HeaderTitleTypeAnimation />
               </div>
               

@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "My name's Jed Staley, I'm a long time coding hobbyist, I made many websites and miniature applications in my off-time before I decided to enroll at Code Fellows to further hone my skills. This prior experience has given me a great window into the breadth of the industry, allowing me to make optimizations that many others would never be aware of. I have experience in the sales industry, which has uniquely equipped me with a very personal understanding of user needs when it comes to data presentation. At Code Fellows, I learned all aspects of full-stack development, including HTML5, CSS3, React, JavaScript, and Bash. I have extensive experience with team collaboration and Git-flow which, paired with my passion for communication, makes me a valuable asset to the team. I take great care in my communication, both written and verbal, and strive to pass that care on to my teammates as well, effectively bolstering the whole team, increasing efficiency and productivity, as well as vastly improving the team environment.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,102 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Horned Beasts",
+        "startDate": "2024",
+        "description": "My first React web-app, designed to filter a card-deck format based on the desired number of horns. Also supported a like feature, which would increment when clicked and would track the likes of the corresponding beast.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/horned-beasts/horned-beasts-1.jpg",
+          "images/portfolio/horned-beasts/horned-beasts-2.jpg",
+          "images/portfolio/horned-beasts/horned-beasts-3.jpg"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
+            "class": "devicon-react-plain",
             "name": "React"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Sanctuary of the Ancients",
+        "startDate": "2024",
+        "description": "My first team project: an auto-generating maze game. The user moves throughout the maze, tasked with finding the key for the door and then continuing to the next level, avoiding enemies and collecting powerups along the way.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/sota/sota-1.jpg",
+          "images/portfolio/sota/sota-2.jpg",
+          "images/portfolio/sota/sota-3.jpg"
+        ],
+        "url": "https://github.com/Sota-Pop-Inc/sota-game",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          }
+        ]
+      },
+      {
+        "title": "Salmon Cookies",
+        "startDate": "2024",
+        "description": "My first web-app, the home page for a fictional start-up called \"Salmon Cookies\". The Sales Data page compiled simulated sales data, and supported adding a new store with corresponding sales data that would be added to the chart.",
+        "images": [
+          "images/portfolio/salmon-cookies/salmon-cookies-1.jpg",
+          "images/portfolio/salmon-cookies/salmon-cookies-2.jpg",
+          "images/portfolio/salmon-cookies/salmon-cookies-3.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "SAS Retail Services",
+        "title": "Retail Sales Representative",
+        "years": "05.2023 - 02.2024",
         "mainTech": [
-          "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Amazon Inc.",
+        "title": "Fulfillment Associate",
+        "years": "10.2022 - 05.2023",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
         ]
       }
     ]
