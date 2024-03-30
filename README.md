@@ -1,5 +1,7 @@
 # Jed Staley's Portfolio
 
+Deployed Site: <https://jedidiahstaley.netlify.app/>
+
 ------------------------------------------------------------------------------------------;
 
 Number and name of feature: Feature #1: Clone Template and Deploy
